@@ -1,4 +1,6 @@
+using System;
 using System.Net;
+using System.Net.Http.Headers;
 using Microsoft.AspNetCore.Mvc;
 
 namespace RestAPITest.Controller
@@ -10,13 +12,14 @@ namespace RestAPITest.Controller
    {
        [HttpGet]
        public ContentResult Get(){
-        
-          return new ContentResult {
+
+          
+                return new ContentResult {
               ContentType = "text/html",
               StatusCode = (int) HttpStatusCode.OK,
-              Content = System.IO.File.ReadAllText("./Data/index.html")           
+              Content = System.IO.File.ReadAllText("./Data/Pages/index.html")           
           };
-        
+               
          
        }
 

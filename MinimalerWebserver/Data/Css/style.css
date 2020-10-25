@@ -10,7 +10,7 @@
     margin: 3%;
 }
 .personal-card:hover{
-scale: 101%;
+    transform: scale(1.1);
 
 }
 .header{
@@ -23,7 +23,7 @@ scale: 101%;
 }
 .headline{
     font-size: 120%;
-    font-weight: 1000;
+    font-weight: bold;
 }
 .personData{
     float: left;
@@ -68,7 +68,8 @@ scale: 101%;
     text-align: center;
 }
 .gitLogo:hover{
-    scale: 112%;
+    transform: scale(1.1);
+    font-weight: bold;
 }
 a:hover{
     font-weight: bold;
@@ -97,9 +98,7 @@ a:hover{
     font-family: cursive;
     font-size: 90%;
 }
-#Logo :hover{
-    scale: 105%;
-}
+
 *{
     box-sizing: border-box;
 }
