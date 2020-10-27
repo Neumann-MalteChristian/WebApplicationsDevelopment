@@ -1,3 +1,4 @@
+using System;
 using System.Net;
 using Microsoft.AspNetCore.Mvc;
 
@@ -7,17 +8,26 @@ namespace MinimalerWebserver.Controllers
   [ApiController]
     public class StudentController :ControllerBase
     {
+      
         [HttpGet]
        public ContentResult Get(){
-        
-          return new ContentResult {
-              ContentType = "text/html",
-              StatusCode = (int) HttpStatusCode.OK,
-              Content = System.IO.File.ReadAllText("./Data/Pages/student.html")           
-          };
-        
          
+         
+           Microsoft.Extensions.Primitives.StringValues value ;
+            HttpContext.Request.Headers.TryGetValue("Accept",out value);
+            string[] accept= value.ToArray();
+
+            switch(accept[0]){
+              case "text/html": return createContent(accept[0]);
+              case "text/plain":return createContent(accept[0]);
+              default: return createContent("text/html");
+            }
+               
        }
+
+       
+        
+       
 
        [HttpGet("{id}")]
        public ContentResult getById(int id){
@@ -34,6 +44,15 @@ namespace MinimalerWebserver.Controllers
               Content = "Ressource mit der id konnte nicht gefunden werden"          
           };
          }
+       }
+
+
+       private ContentResult createContent(string pContentType){
+             return new ContentResult {
+              ContentType = pContentType,
+              StatusCode = (int) HttpStatusCode.OK,
+              Content = System.IO.File.ReadAllText("./Data/Pages/student.html")           
+          };
        }
 
     }
