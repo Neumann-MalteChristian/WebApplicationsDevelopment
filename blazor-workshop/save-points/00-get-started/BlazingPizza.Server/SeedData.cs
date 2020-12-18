@@ -183,6 +183,14 @@
                     BasePrice = 9.99m,
                     ImageUrl = "img/pizzas/margherita.jpg",
                 },
+                 new PizzaSpecial()
+                {
+                    Id = 9,
+                    Name = "TestPizza",
+                    Description = "This is an test pizza ",
+                    BasePrice = 12.50m,
+                    ImageUrl = "img/pizzas/pizzaOliven.jpg",
+                },
             };
 
             db.Toppings.AddRange(toppings);
