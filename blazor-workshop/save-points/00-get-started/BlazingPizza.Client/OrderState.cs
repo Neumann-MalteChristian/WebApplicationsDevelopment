@@ -4,6 +4,10 @@ namespace BlazingPizza.Client
 {
     public class OrderState
     {
+        public void ReplaceOrder(Order order)
+        {
+        Order = order;
+        }
         public bool ShowingConfigureDialog { get; private set; }
 
         public Pizza ConfiguringPizza { get; private set; }
@@ -49,4 +53,5 @@ namespace BlazingPizza.Client
                 Order.Pizzas.Remove(pizza);
             }
         }
+
     }

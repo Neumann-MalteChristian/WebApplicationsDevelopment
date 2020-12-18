@@ -1,7 +1,8 @@
 @page "/checkout"
-@inject HttpClient HttpClient
+@inject OrdersClient OrdersClient
 @inject OrderState OrderState
 @inject NavigationManager NavigationManager
+@attribute [Authorize]
 
 
 <div class="main">
@@ -17,7 +18,7 @@
             </div>
         </div>
 
-        <button class="checkout-button btn btn-warning" type="submit">
+        <button class="checkout-button btn btn-warning" type="submit" disabled="@isSubmitting">
             Place order
         </button>
         <DataAnnotationsValidator />
@@ -25,13 +26,22 @@
 </div>
 
 @code{
+     bool isSubmitting;
 
      async Task PlaceOrder()
     {
-        var response = await HttpClient.PostAsJsonAsync("orders", OrderState.Order);
-        var newOrderId = await response.Content.ReadFromJsonAsync<int>();
+        isSubmitting = true;
+
+    try
+    {
+        var newOrderId = await OrdersClient.PlaceOrder(OrderState.Order);
         OrderState.ResetOrder();
         NavigationManager.NavigateTo($"myorders/{newOrderId}");
+    }
+    catch (AccessTokenNotAvailableException ex)
+    {
+        ex.Redirect();
+    }
     }
 
 }

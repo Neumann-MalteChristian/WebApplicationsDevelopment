@@ -9,17 +9,19 @@
         <img src="img/pizza-slice.svg" />
         <div>Get Pizza</div>
     </NavLink>
-
-    <NavLink href="myorders" class="nav-tab">
-        <img src="img/bike.svg" />
-        <div>My Orders</div>
-    </NavLink>
-
+    
+    <AuthorizeView>
+        <NavLink href="myorders" class="nav-tab">
+            <img src="img/bike.svg" />
+            <div>My Orders</div>
+        </NavLink>
+    </AuthorizeView>
+    
     <NavLink href="impressum" class="nav-tab">
         <img src="img/contacts.svg" style="color: white;"/>
         <div>Impressum</div>
     </NavLink>
-
+    <LoginDisplay />
 </div>
 <div class="content">
     @Body
