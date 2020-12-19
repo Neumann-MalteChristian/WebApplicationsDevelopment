@@ -28,7 +28,7 @@ Ausfürung der Anwendung:
 
 # Blazor Tutorial (Blazzing Pizza)
 
-##H2 Voraussetzung:
+## Voraussetzung:
 -Als Laufumgebung brauchen sie  .NET Core diese finden sie hier: https://dotnet.microsoft.com/download
 
 Ausfürung der Anwendung (manuell):
