@@ -7,7 +7,8 @@ Dies ist eine minimaler Webserver auf Basis von .Net Core (ASP.Net Core), der le
 
 
 
-Ausführung der Anwendung: 
+# Minimaler Webserever 
+Ausfürung der Anwendung:
 1. Navigieren sie in den Projektordner ".../MinimalerWebserver"
 2. Führen Sie in der Comandozeile den Befehl "dotnet run "aus.
         => Müsste dann so aussehen:
@@ -24,3 +25,16 @@ Ausführung der Anwendung:
             Content root path: .....\MinimalerWebserver
 
 3. Jetzt läuft der Server unf hört auf Port 80 bzw Port 443. Nun kann mit der URL "localhost/index.html" die gewünschte HTML-Seite erhalten
+
+# Blazor Tutorial (Blazzing Pizza)
+
+Voraussetzung:
+-Als Laufumgebung brauchen sie  .NET Core diese finden sie hier: https://dotnet.microsoft.com/download
+
+Ausfürung der Anwendung (manuell):
+
+1. Clonen sie das Git-Repository
+2. Navigieren Sie in das Verzeichnis blazor-workshop/save-points/00-get-started/BlazingPizza.Server
+3. Führen sie in einer Shell ihrer Wahl(z.B Powershell ) folgendes Kommando aus : "dotnet run"
+4. Öffnen Sie ein Browser ihrer Wahl geben Sie die URL:"https://localhost:5001"ein
+    
