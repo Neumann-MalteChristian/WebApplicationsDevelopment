@@ -29,8 +29,8 @@ Dies ist eine minimaler Webserver auf Basis von .Net Core (ASP.Net Core), der le
 # Blazor Tutorial (Blazzing Pizza)
 
 ### Voraussetzung:
--Als Laufumgebung brauchen sie  .NET Core diese finden sie hier: https://dotnet.microsoft.com/download
-
+* Als Laufumgebung brauchen sie  .NET Core diese finden sie hier: https://dotnet.microsoft.com/download
+* Um das Repository clonen zu können muss Git auf dem Rechner installiert sein den Downloadlink finden Sie hier : https://git-scm.com/downloads
 ### Ausfürung der Anwendung (manuell):
 
 1. Clonen sie das Git-Repository
