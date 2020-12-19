@@ -6,28 +6,28 @@
         </div>
        <form class="dialog-body">
             <div>
-                <label>Size:</label>
+                <label>Größe:</label>
                 <input type="range" min="@Pizza.MinimumSize" max="@Pizza.MaximumSize" step="1" @bind="Pizza.Size" @bind:event="oninput"/>
                 <span class="size-label">
                     @(Pizza.Size)" (€@(Pizza.GetFormattedTotalPrice()))
                 </span>
             </div>
             <div>
-                <label>Extra Toppings:</label>
+                <label>Extra Zutat:</label>
                     @if (toppings == null)
                     {
                         <select class="custom-select" disabled>
-                            <option>(loading...)</option>
+                            <option>(lädt...)</option>
                         </select>
                     }
                     else if (Pizza.Toppings.Count >= 6)
                     {
-                        <div>(maximum reached)</div>
+                        <div>(Maximum erreicht)</div>
                     }
                     else
                     {
                     <select class="custom-select" @onchange="ToppingSelected">
-                        <option value="-1" disabled selected>(select)</option>
+                        <option value="-1" disabled selected>(ausgewählt)</option>
                         @for (var i = 0; i < toppings.Count; i++)
                         {
                             <option value="@i">@toppings[i].Name - (@(toppings[i].GetFormattedPrice())€)</option>
@@ -48,11 +48,11 @@
             </div>
         </form>
     <div class="dialog-buttons">
-            <button class="btn btn-secondary mr-auto"@onclick="OnCancel">Cancel</button>
+            <button class="btn btn-secondary mr-auto"@onclick="OnCancel">Abbrechen</button>
             <span class="mr-center">
-                Price: <span class="price">@(Pizza.GetFormattedTotalPrice())</span>
+                Preis: <span class="price">@(Pizza.GetFormattedTotalPrice())</span>
             </span>
-            <button class="btn btn-success ml-auto"@onclick="OnConfirm">Order ></button>
+            <button class="btn btn-success ml-auto"@onclick="OnConfirm">Bestellen ></button>
         </div>
 
 

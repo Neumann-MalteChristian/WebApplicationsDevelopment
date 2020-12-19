@@ -8,113 +8,113 @@
             {
                 new Topping()
                 {
-                    Name = "Extra cheese",
-                    Price = 2.50m,
+                    Name = "Ananas",
+                    Price = 0.80m,
                 },
                 new Topping()
                 {
-                    Name = "American bacon",
-                    Price = 2.99m,
+                    Name = "Artischocken",
+                    Price = 0.80m,
                 },
                 new Topping()
                 {
-                    Name = "British bacon",
-                    Price = 2.99m,
+                    Name = "Auberginen",
+                    Price = 0.80m,
                 },
                 new Topping()
                 {
-                    Name = "Canadian bacon",
-                    Price = 2.99m,
+                    Name = "Basilikum",
+                    Price = 0.80m,
                 },
                 new Topping()
                 {
-                    Name = "Tea and crumpets",
-                    Price = 5.00m
+                    Name = "Champignons",
+                    Price = 0.80m,
                 },
                 new Topping()
                 {
-                    Name = "Fresh-baked scones",
-                    Price = 4.50m,
+                    Name = "Karpern",
+                    Price = 0.80m,
                 },
                 new Topping()
                 {
-                    Name = "Bell peppers",
-                    Price = 1.00m,
+                    Name = "Knoblauch",
+                    Price = 0.80m,
                 },
                 new Topping()
                 {
-                    Name = "Onions",
-                    Price = 1.00m,
+                    Name = "Lachs(geräuchert)",
+                    Price = 0.80m,
                 },
                 new Topping()
                 {
-                    Name = "Mushrooms",
-                    Price = 1.00m,
+                    Name = "Mozzarella",
+                    Price = 0.80m,
                 },
                 new Topping()
                 {
-                    Name = "Pepperoni",
-                    Price = 1.00m,
+                    Name = "Oliven",
+                    Price = 0.80m,
                 },
                 new Topping()
                 {
-                    Name = "Duck sausage",
-                    Price = 3.20m,
+                    Name = "Paprika",
+                    Price = 0.80m,
                 },
                 new Topping()
                 {
-                    Name = "Venison meatballs",
-                    Price = 2.50m,
+                    Name = "Parmesankäse",
+                    Price = 0.80m,
                 },
                 new Topping()
                 {
-                    Name = "Served on a silver platter",
-                    Price = 250.99m,
+                    Name = "Peperoni(scharf)",
+                    Price = 0.80m,
                 },
                 new Topping()
                 {
-                    Name = "Lobster on top",
-                    Price = 64.50m,
+                    Name = "Rucola",
+                    Price = 0.80m,
                 },
                 new Topping()
                 {
-                    Name = "Sturgeon caviar",
-                    Price = 101.75m,
+                    Name = "Salami",
+                    Price = 0.80m,
                 },
                 new Topping()
                 {
-                    Name = "Artichoke hearts",
-                    Price = 3.40m,
+                    Name = "Sardellen",
+                    Price = 0.80m,
                 },
                 new Topping()
                 {
-                    Name = "Fresh tomatoes",
-                    Price = 1.50m,
+                    Name = "Schinken",
+                    Price = 0.80m,
                 },
                 new Topping()
                 {
-                    Name = "Basil",
-                    Price = 1.50m,
+                    Name = "Spinat",
+                    Price = 0.80m,
                 },
                 new Topping()
                 {
-                    Name = "Steak (medium-rare)",
-                    Price = 8.50m,
+                    Name = "Thunfisch",
+                    Price = 0.80m,
                 },
                 new Topping()
                 {
-                    Name = "Blazing hot peppers",
-                    Price = 4.20m,
+                    Name = "Tomaten(frisch)",
+                    Price = 0.80m,
                 },
                 new Topping()
                 {
-                    Name = "Buffalo chicken",
-                    Price = 5.00m,
+                    Name = "Tomatensauce",
+                    Price = 0.80m,
                 },
                 new Topping()
                 {
-                    Name = "Blue cheese",
-                    Price = 2.50m,
+                    Name = "Zwiebeln",
+                    Price = 0.80m,
                 },
             };
 
@@ -122,74 +122,202 @@
             {
                 new PizzaSpecial()
                 {
-                    Name = "Basic Cheese Pizza",
-                    Description = "It's cheesy and delicious. Why wouldn't you want one?",
-                    BasePrice = 9.99m,
-                    ImageUrl = "img/pizzas/cheese.jpg",
+                    Name = "Pizza Margherita",
+                    Description = "",
+                    BasePrice = 7.50m,
+                    ImageUrl = "img/pizzas/margherita.jpg",
                 },
                 new PizzaSpecial()
                 {
                     Id = 2,
-                    Name = "The Baconatorizor",
-                    Description = "It has EVERY kind of bacon",
-                    BasePrice = 11.99m,
-                    ImageUrl = "img/pizzas/bacon.jpg",
+                    Name = "Pizza Salami",
+                    Description = "",
+                    BasePrice = 7.90m,
+                    ImageUrl = "img/pizzas/pizza salami.jpg",
                 },
                 new PizzaSpecial()
                 {
                     Id = 3,
-                    Name = "Classic pepperoni",
-                    Description = "It's the pizza you grew up with, but Blazing hot!",
-                    BasePrice = 10.50m,
-                    ImageUrl = "img/pizzas/pepperoni.jpg",
+                    Name = "Pizza Prosciutto",
+                    Description = "",
+                    BasePrice = 7.90m,
+                    ImageUrl = "img/pizzas/pizza prosciutto.jpg",
                 },
                 new PizzaSpecial()
                 {
                     Id = 4,
-                    Name = "Buffalo chicken",
-                    Description = "Spicy chicken, hot sauce and bleu cheese, guaranteed to warm you up",
-                    BasePrice = 12.75m,
-                    ImageUrl = "img/pizzas/meaty.jpg",
+                    Name = "Pizza Funghi",
+                    Description = "",
+                    BasePrice = 7.90m,
+                    ImageUrl = "img/pizzas/pizza funghi.jpg",
                 },
                 new PizzaSpecial()
                 {
                     Id = 5,
-                    Name = "Mushroom Lovers",
-                    Description = "It has mushrooms. Isn't that obvious?",
-                    BasePrice = 11.00m,
-                    ImageUrl = "img/pizzas/mushroom.jpg",
+                    Name = "Pizza Tonno",
+                    Description = "",
+                    BasePrice = 8.50m,
+                    ImageUrl = "img/pizzas/pizza tonno.jpg",
                 },
                 new PizzaSpecial()
                 {
                     Id = 6,
-                    Name = "The Brit",
-                    Description = "When in London...",
-                    BasePrice = 10.25m,
-                    ImageUrl = "img/pizzas/brit.jpg",
+                    Name = "Pizza Contadina",
+                    Description = "",
+                    BasePrice = 9.50m,
+                    ImageUrl = "img/pizzas/PizzaContadia.jpg",
                 },
                 new PizzaSpecial()
                 {
                     Id = 7,
-                    Name = "Veggie Delight",
-                    Description = "It's like salad, but on a pizza",
-                    BasePrice = 11.50m,
-                    ImageUrl = "img/pizzas/salad.jpg",
+                    Name = "Pizza Salami e Funghi",
+                    Description = "",
+                    BasePrice = 8.50m,
+                    ImageUrl = "img/pizzas/pizza salame e funghi.jpg",
                 },
                 new PizzaSpecial()
                 {
                     Id = 8,
-                    Name = "Margherita",
-                    Description = "Traditional Italian pizza with tomatoes and basil",
-                    BasePrice = 9.99m,
-                    ImageUrl = "img/pizzas/margherita.jpg",
+                    Name = "Pizza Prosciutto e Salami",
+                    Description = "",
+                    BasePrice = 8.50m,
+                    ImageUrl = "img/pizzas/pizza prosciutto e salame.jpg",
                 },
                  new PizzaSpecial()
                 {
                     Id = 9,
-                    Name = "TestPizza",
-                    Description = "This is an test pizza ",
-                    BasePrice = 12.50m,
+                    Name = "Pizza Capricciosa",
+                    Description = "",
+                    BasePrice = 9.50m,
+                    ImageUrl = "img/pizzas/PizzaCapricossa.jpg",
+                },
+                 new PizzaSpecial()
+                {
+                    Id = 10,
+                    Name = "Pizza Hawaii",
+                    Description = "",
+                    BasePrice = 8.50m,
+                    ImageUrl = "img/pizzas/pizza hawaii.jpg",
+                },
+                 new PizzaSpecial()
+                {
+                    Id = 11,
+                    Name = "Pizza 4 Stagioni",
+                    Description = "",
+                    BasePrice = 9.50m,
+                    ImageUrl = "img/pizzas/Pizza 4 Stagioni.jpg",
+                },
+                 new PizzaSpecial()
+                {
+                    Id = 12,
+                    Name = "Pizza Pazza",
+                    Description = "",
+                    BasePrice = 9.50m,
                     ImageUrl = "img/pizzas/pizzaOliven.jpg",
+                },
+                 new PizzaSpecial()
+                {
+                    Id = 13,
+                    Name = "Pizza Diavolo",
+                    Description = "",
+                    BasePrice = 9.50m,
+                    ImageUrl = "img/pizzas/pizzaDiavolo.jpg",
+                },
+                 new PizzaSpecial()
+                {
+                    Id = 14,
+                    Name = "Pizza Rucola",
+                    Description = "",
+                    BasePrice = 9.90m,
+                    ImageUrl = "img/pizzas/PizzaRucola.jpg",
+                },
+                 new PizzaSpecial()
+                {
+                    Id = 15,
+                    Name = "Pizza Bismarck",
+                    Description = "",
+                    BasePrice = 8.50m,
+                    ImageUrl = "img/pizzas/pizza bismarck.jpg",
+                },
+                 new PizzaSpecial()
+                {
+                    Id = 16,
+                    Name = "Pizza Carpese",
+                    Description = "",
+                    BasePrice = 8.20m,
+                    ImageUrl = "img/pizzas/pizza Caprese.jpg",
+                },
+                 new PizzaSpecial()
+                {
+                    Id = 17,
+                    Name = "Pizza Salmone",
+                    Description = "",
+                    BasePrice = 9.90m,
+                    ImageUrl = "img/pizzas/PizzaSalmone.jpg",
+                },
+                 new PizzaSpecial()
+                {
+                    Id = 18,
+                    Name = "Pizza Mafia",
+                    Description = "",
+                    BasePrice = 9.50m,
+                    ImageUrl = "img/pizzas/pizza Mafia.jpg",
+                },
+                 new PizzaSpecial()
+                {
+                    Id = 19,
+                    Name = "Pizza 4 Fromaggi",
+                    Description = "",
+                    BasePrice = 9.00m,
+                    ImageUrl = "img/pizzas/pizza 4 formaggi.jpg",
+                },
+                 new PizzaSpecial()
+                {
+                    Id = 20,
+                    Name = "Pizza alle Verdure",
+                    Description = "",
+                    BasePrice = 9.90m,
+                    ImageUrl = "img/pizzas/PizzaAlleVerdure.jpg",
+                },
+                 new PizzaSpecial()
+                {
+                    Id = 21,
+                    Name = "Pizza Melanzane",
+                    Description = "",
+                    BasePrice = 9.90m,
+                    ImageUrl = "img/pizzas/PizzaMelazane.jpg",
+                },
+                 new PizzaSpecial()
+                {
+                    Id = 22,
+                    Name = "Pizza Napoli",
+                    Description = "",
+                    BasePrice = 7.90m,
+                    ImageUrl = "img/pizzas/pizza napoli.jpg",
+                },
+                 new PizzaSpecial()
+                {
+                    Id = 23,
+                    Name = "Pizza Italia",
+                    Description = "",
+                    BasePrice = 9.90m,
+                    ImageUrl = "img/pizzas/PizzaItalia.jpg",
+                },
+                 new PizzaSpecial()
+                {
+                    Id = 24,
+                    Name = "Pizza Bella Vista",
+                    Description = "",
+                    BasePrice = 10.00m,
+                    ImageUrl = "img/pizzas/pizzaOliven.jpg",
+                },
+                 new PizzaSpecial()
+                {
+                    Id = 25,
+                    Name = "Pizza Calzone",
+                    Description = "",
+                    BasePrice = 9.00m,
+                    ImageUrl = "img/pizzas/pizzaCalzone.jpg",
                 },
             };
 

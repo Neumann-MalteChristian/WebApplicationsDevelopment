@@ -7,18 +7,18 @@
     @if (invalidOrder)
     {
         <h2>Nope</h2>
-        <p>Sorry, this order could not be loaded.</p>
+        <p>Sorry, die Bestellung konnte nicht geladen werden.</p>
     }
     else if (orderWithStatus == null)
     {
-        <text>Loading...</text>
+        <text>Lädt...</text>
     }
     else
     {
         <div class="track-order">
             <div class="track-order-title">
                 <h2>
-                    Order placed @orderWithStatus.Order.CreatedTime.ToLongDateString()
+                    Bestellung abgegeben @orderWithStatus.Order.CreatedTime.ToLongDateString()
                 </h2>
                 <p class="ml-auto mb-0">
                     Status: <strong>@orderWithStatus.StatusText</strong>

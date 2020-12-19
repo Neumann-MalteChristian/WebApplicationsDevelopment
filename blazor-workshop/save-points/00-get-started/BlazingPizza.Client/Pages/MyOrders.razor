@@ -3,25 +3,25 @@
 
 <div class="main">
     <TemplatedList Loader="@LoadOrders" ListGroupClass="orders-list">
-        <Loading>Loading...</Loading>
+        <Loading>Lädt...</Loading>
         <Empty>
-            <h2>No orders placed</h2>
-            <a class="btn btn-success" href="">Order some pizza</a>
+            <h2>Keine Bestellungen vorhanden</h2>
+            <a class="btn btn-success" href="">Bestell eine Pizza</a>
         </Empty>
         <Item Context="item">
             <div class="col">
                 <h5>@item.Order.CreatedTime.ToLongDateString()</h5>
-                Items:
+                Pizzen:
                 <strong>@item.Order.Pizzas.Count()</strong>;
-                Total price:
-                <strong>£@item.Order.GetFormattedTotalPrice()</strong>
+                Gesamt Preis:
+                <strong>@item.Order.GetFormattedTotalPrice()€</strong>
             </div>
             <div class="col">
                 Status: <strong>@item.StatusText</strong>
             </div>
             <div class="col flex-grow-0">
                 <a href="myorders/@item.Order.OrderId" class="btn btn-success">
-                    Track &gt;
+                    Verfolgen &gt;
                 </a>
             </div>
         </Item>
