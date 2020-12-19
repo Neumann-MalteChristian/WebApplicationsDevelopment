@@ -34,6 +34,9 @@ Dies ist eine minimaler Webserver auf Basis von .Net Core (ASP.Net Core), der le
 ### Ausfürung der Anwendung (manuell):
 
 1. Clonen sie das Git-Repository
+..* Erstellen oder Navigieren Sie zu einen Ordener, indem Sie das Repository colonen möchten
+...* (Per Https) Geben sie in einer Shell ihrer Wahl folgenden Befehl ein "git clone https://git.it.hs-heilbronn.de/it/courses/seb/webdev/webdev-ws-2021/mneuman2/webdev_webserver.git"
+...* (Per SSH)  Geben sie in einer Shell ihrer Wahl folgenden Befehl ein "git clone git@git.it.hs-heilbronn.de:it/courses/seb/webdev/webdev-ws-2021/mneuman2/webdev_webserver.git"
 2. Navigieren Sie in das Verzeichnis blazor-workshop/save-points/00-get-started/BlazingPizza.Server
 3. Führen sie in einer Shell ihrer Wahl(z.B Powershell ) folgendes Kommando aus : "dotnet run"
 4. Öffnen Sie ein Browser ihrer Wahl geben Sie die URL:"https://localhost:5001"ein
