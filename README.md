@@ -28,17 +28,26 @@ Dies ist eine minimaler Webserver auf Basis von .Net Core (ASP.Net Core), der le
 
 # Blazor Tutorial (Blazzing Pizza)
 
-### Voraussetzung:
-* Als Laufumgebung brauchen sie  .NET Core diese finden sie hier: https://dotnet.microsoft.com/download
-* Um das Repository clonen zu können muss Git auf dem Rechner installiert sein den Downloadlink finden Sie hier : https://git-scm.com/downloads
+### Voraussetzungen:
+
+* Als Laufumgebung brauchen Sie  .NET Core diese finden sie hier: https://dotnet.microsoft.com/download
+* Um das Repository clonen zu können brauchen Sie Git auf dem Rechner. Den Downloadlink finden Sie hier : https://git-scm.com/downloads
+* Zudem brauchen Sie ein Account entweder im LDAP(Als Student oder Lehrende an der HN Heilbronn) oder bei GitHub (Falls Sie das Repo Clonen möchten).
+
 ### Ausfürung der Anwendung (manuell):
 
-1. Clonen sie das Git-Repository
+1. Clonen Sie das Git-Repository
     * Erstellen oder Navigieren Sie zu einen Ordener, indem Sie das Repository colonen möchten
     * Geben sie in einer Shell ihrer Wahl folgenden Befehl ein:
+
+   #### Für GitLab(HN Heilbronn):
         * (Clone per Https) "git clone https://git.it.hs-heilbronn.de/it/courses/seb/webdev/webdev-ws-2021/mneuman2/webdev_webserver.git"
         * (Clone Per SSH)   "git clone git@git.it.hs-heilbronn.de:it/courses/seb/webdev/webdev-ws-2021/mneuman2/webdev_webserver.git"
+   #### Für GitHub:
+        * (Clone per Https) "git clone https://github.com/Neumann-MalteChristian/WebApplicationsDevelopment.git"
+        * (Clone Per SSH)   "git clone git@github.com:Neumann-MalteChristian/WebApplicationsDevelopment.git" 
+
 2. Navigieren Sie in das Verzeichnis blazor-workshop/save-points/00-get-started/BlazingPizza.Server
 3. Führen sie in einer Shell ihrer Wahl(z.B Powershell ) folgendes Kommando aus : "dotnet run"
-4. Öffnen Sie ein Browser ihrer Wahl geben Sie die URL:"https://localhost:5001"ein
+4. Öffnen Sie ein Browser ihrer Wahl geben Sie die URL: "https://localhost:5001" ein
     
